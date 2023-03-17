@@ -15,6 +15,8 @@ import { HeaderComponent } from './header/header/header.component';
 import { PostListComponent } from './posts/post-list/post-list/post-list.component';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { PostService } from './posts/post.service';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+
 
 @NgModule({
   declarations: [
@@ -32,6 +34,7 @@ import { PostService } from './posts/post.service';
     HttpClientModule,
     MatInputModule,
     FormsModule,
+    MatProgressSpinnerModule,
     AppRoutingModule,
     BrowserAnimationsModule
   ],
