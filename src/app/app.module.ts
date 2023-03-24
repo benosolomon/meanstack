@@ -16,6 +16,7 @@ import { PostListComponent } from './posts/post-list/post-list/post-list.compone
 import {MatExpansionModule} from '@angular/material/expansion';
 import { PostService } from './posts/post.service';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     PostListComponent
   ],
   imports: [
+    MatPaginatorModule,
     MatExpansionModule,
     FormsModule,
     ReactiveFormsModule,
